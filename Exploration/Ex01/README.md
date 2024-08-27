@@ -7,8 +7,25 @@
 - [O ]  **1. 주어진 문제를 해결하는 완성된 코드가 제출되었나요?**
     - 문제에서 요구하는 최종 결과물이 첨부되었는지 확인
         - 중요! 해당 조건을 만족하는 부분을 캡쳐해 근거 
-        
-        plt 그래프로 시각화와 head를 통해서 데이터의 feature들과 개수 값들을 시각화를 통해서 쉽게 볼 수 있었습니다. 
+
+          ##  diabets 
+          ![image](https://github.com/user-attachments/assets/3fbf9b87-06ca-4645-81fd-2f7455e68260)
+
+          ![image](https://github.com/user-attachments/assets/b4ddff95-5bbc-4485-8c14-caf3d5f6c8ea)
+
+
+            문제에서 요구한 loss 값이랑 그래프를 통해 Loss가 줄어 드는 점을 그래프로 잘 나타냈습니다.
+
+          ## Bike_sharing_demand 
+
+          ![image](https://github.com/user-attachments/assets/65cff838-cee7-452a-b28f-cf674aadb61d)
+
+          
+          ![image](https://github.com/user-attachments/assets/7c5e7405-54d1-4166-ac98-6d76eb309959)
+
+          각각의 feature의 개수를 시각화를 통해 쉽게 볼 수 있었고 문제에서 요구한 Count와 temp,humidity의 realation을 시각화를
+          통해 쉽게 볼 수 있었습니다. 
+
     
 - [ x]  **2. 전체 코드에서 가장 핵심적이거나 가장 복잡하고 이해하기 어려운 부분에 작성된 
 주석 또는 doc string을 보고 해당 코드가 잘 이해되었나요?**
@@ -21,7 +38,10 @@
         
          doc string/annotation 없음 
          
-         bike sahjring 데이터에서 
+         bike sharing 데이터에서 
+
+
+
          ```
          X = train.drop(columns=["datetime", "casual", "registered", "count"])
           y = train["count"]
@@ -31,16 +51,16 @@
             
         ``
         def gradient(X, W, b, y):
-        # N은 데이터 포인트의 개수
+        /// N은 데이터 포인트의 개수
         N = len(y)
     
-        # y_pred 준비
+        //// y_pred 준비
         y_pred = model(X, W, b)
     
-        # 공식에 맞게 gradient 계산
+        /// 공식에 맞게 gradient 계산
         dW = (2/N) * X.T.dot(y_pred - y)
         
-        # b의 gradient 계산
+        ///b의 gradient 계산
         db = 2 * (y_pred - y).mean()
         return dW, db
         ```
@@ -88,4 +108,4 @@
           y = train["count"]
          ```
          이 부분에 대해서 어떠한 이유로 이 feature들을 drop하신지 주석으로 설명해 놓으시면 좋을거 같습니다.
-      더 다양한 시도를 해보았으면 좋았을거 같습니다. (아직 그림 넣는 법을 모르겠어요)
+      더 다양한 시도를 해보았으면 좋았을거 같습니다. 
