@@ -82,7 +82,7 @@ AIFFEL_quest_rs
 ├── MainQuest  
 │    
 │  ├── Quest01  
-│  │ ├── .ipynb  
+│  │ ├── GPT_1_korean_chatbot_data.ipynb  
 │  │ └── README.md  
 │  │   
 │  ├── Quest02  
