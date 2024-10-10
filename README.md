@@ -15,6 +15,9 @@ AIFFEL_quest_rs
 │  │   
 │  ├── Ex02  
 │  │ ├── kakr_housing.ipynb  
+│  │ ├── a.png  
+│  │ ├── b.png  
+│  │ ├── c.png  
 │  │ └── README.md  
 │  │    
 │  ├── Ex03  
