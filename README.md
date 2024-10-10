@@ -1,119 +1,97 @@
 # AIFFEL_quest_rs
 
-이 레포지토리는 AIFFEL 프로젝트의 MainQuest와 Exploration 퀘스트를 포함하고 있습니다.  
+이 레포지토리는 AIFFEL 프로젝트의 Exploration, Going Deeper, MainQuest 내용을 포함하고 있습니다.  
 각 퀘스트는 해당하는 디렉토리 안에 `.ipynb` 파일과 `README.md` 파일을 포함하고 있습니다.
 
 ## 디렉토리 구조
 
 AIFFEL_quest_rs  
 │  
-├── MainQuest  
-│  │  
-│  ├── Quest01  
-│  │ │  
-│  │ ├── diabetes.ipynb  
-│  │ │  
-│  │ ├── Bike_Sharing_Demand .ipynb  
-│  │ │  
-│  │ ├── .ipynb  
-│  │ │   
-│  │ └── README.md  
-│  │   
-│  ├── Quest02  
-│  │ │  
-│  │ ├── kakr_housing .ipynb  
-│  │ │  
-│  │ ├── .ipynb  
-│  │ │  
-│  │ └── README.md  
-│  │    
-│  ├── Quest03  
-│  │ │   
-│  │ ├── Exp_3_camera_sticker .ipynb   
-│  │ │  
-│  │ ├── .ipynb  
-│  │ │  
-│  │ └── README.md  
-│  │  
-│  ├── Quest04  
-│  │ │  
-│  │ ├── .ipynb  
-│  │ │  
-│  │ └── README.md  
-│  │  
-│  ├── Quest05  
-│  │ │  
-│  │ ├── .ipynb  
-│  │ │  
-│  │ └── README.md  
-│  │  
-│  ├── Quest06  
-│  │ │  
-│  │ ├── .ipynb  
-│  │ │  
-│  │ └── README.md  
-│  │  
-│  ├── Quest07   
-│  │ │  
-│  │ ├── .ipynb  
-│  │ │  
-│  │ └── README.md  
-│  │  
-│  ├── Quest08  
-│  │ │   
-│  │ ├── .ipynb  
-│  │ │  
-│  │ └── README.md  
-│    
-│   
-├ ── Exploration  
-│    
+├── Exploration  
 │  ├── Ex01  
-│  │ │  
-│  │ ├── .ipynb  
-│  │ │  
+│  │ ├── diabetes.ipynb  
+│  │ ├── Bike_Sharing_Demand.ipynb  
 │  │ └── README.md  
 │  │   
 │  ├── Ex02  
-│  │ │  
-│  │ ├── .ipynb  
-│  │ │  
+│  │ ├── kakr_housing.ipynb  
 │  │ └── README.md  
-│  │   
+│  │    
 │  ├── Ex03  
-│  │ │  
-│  │ ├── .ipynb  
-│  │ │  
-│  │ └── README.md  
-│  │   
-│  ├── Ex04  
-│  │ │  
-│  │ ├── .ipynb  
-│  │ │  
-│  │ └── README.md  
-│  │   
-│  ├── Ex05  
-│  │ │  
-│  │ ├── .ipynb  
-│  │ │  
-│  │ └── README.md  
-│  │   
-│  ├── Ex06  
-│  │ │  
-│  │ ├── .ipynb  
-│  │ │  
-│  │ └── README.md  
-│  │   
-│  ├── Ex07  
-│  │ │  
-│  │ ├── .ipynb  
-│  │ │  
+│  │ ├── Exp_3_camera_sticker.ipynb  
 │  │ └── README.md  
 │  │  
-│  ├── Ex08  
-│  │ │  
+│  ├── Ex04  
+│  │ ├── Semantic_segmentation.ipynb  
+│  │ └── README.md  
+│  │  
+│  ├── Ex05  
+│  │ ├── _Naver_sentiment_movie_corpus.ipynb  
+│  │ └── README.md  
+│  │  
+│  ├── Ex06  
+│  │ ├── news_summarize_project.ipynb  
+│  │ ├── news_summarize_project_add.ipynb  
+│  │ └── README.md  
+│  │  
+│  ├── Quest07   
+│  │ ├── trainsformer_chatbot_wellmade.ipynb  
+│  │ └── README.md  
+│    
+├── Going_Deeper  
+│    
+│  ├── GD_01  
+│  │ ├── ResNet_project.ipynb  
+│  │ └── README.md  
+│  │   
+│  ├── GD_02  
 │  │ ├── .ipynb  
-│  │ │    
+│  │ └── README.md  
+│  │   
+│  ├── GD_03  
+│  │ ├── .ipynb  
+│  │ └── README.md  
+│  │   
+│  ├── GD_04  
+│  │ ├── .ipynb  
+│  │ └── README.md  
+│  │   
+│  ├── GD_05  
+│  │ ├── .ipynb  
+│  │ └── README.md  
+│  │   
+│  ├── GD_06  
+│  │ ├── .ipynb  
+│  │ └── README.md  
+│  │   
+│  ├── GD_07  
+│  │ ├── .ipynb  
+│  │ └── README.md  
+│  │  
+│  ├── GD_08  
+│  │ ├── .ipynb  
+│  │ └── README.md  
+│  │  
+│  ├── GD_09  
+│  │ ├── .ipynb  
+│  │ └── README.md  
+│    
+├── MainQuest  
+│    
+│  ├── Quest01  
+│  │ ├── .ipynb  
+│  │ └── README.md  
+│  │   
+│  ├── Quest02  
+│  │ ├── .ipynb  
+│  │ └── README.md  
+│  │   
+│  ├── Quest03  
+│  │ ├── .ipynb  
+│  │ └── README.md  
+│  │   
+│  ├── Quest04  
+│  │ ├── .ipynb  
 │  │ └── README.md  
 │  
 └────────────────────  
