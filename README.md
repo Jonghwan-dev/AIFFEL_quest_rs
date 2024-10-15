@@ -49,6 +49,7 @@ AIFFEL_quest_rs
 │  │   
 │  ├── GD_02  
 │  │ ├── .ipynb  
+│  │ ├── Image_augmentation_mix_method_experiment.ipynb   
 │  │ └── README.md  
 │  │   
 │  ├── GD_03  
