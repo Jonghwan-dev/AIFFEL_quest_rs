@@ -1,0 +1,55 @@
+%\documentclass[letterpaper, 10 pt, conference]{ieeeconf}
+
+\documentclass[a4paper, 10pt, conference]{ieeeconf}      
+\IEEEoverridecommandlockouts                                                                                  
+\overrideIEEEmargins
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{kotex}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{cite}
+\usepackage{cleveref}
+\usepackage[T1]{fontenc}
+
+% The following packages can be found on http:\\www.ctan.org
+%\usepackage{graphics} % for pdf, bitmapped graphics files
+%\usepackage{epsfig} % for postscript graphics files
+%\usepackage{mathptmx} % assumes new font selection scheme installed
+%\usepackage{mathptmx} % assumes new font selection scheme installed
+%\usepackage{amsmath} % assumes amsmath package installed
+%\usepackage{amssymb}  % assumes amsmath package installed
+
+\title{\LARGE \bf
+도로 결함 탐지 및 인프라 점검을 위한 딥러닝 기반 분할 모델 비교
+}
+
+\author{
+    \IEEEauthorblockN{Jonghwan Kim$^{1}$}\\ % 저자 이름과 상단 첨자 추가
+    \IEEEauthorblockA{$^{1}$Aiffel Online Research 9기\\ % 소속 정보
+    Email: kkk00012120@gmail.com} % 이메일 주소
+}
+
+\begin{document}
+\maketitle
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{abstract}
+자율주행 데이터는 도로 결함 탐지와 인프라 점검의 새로운 가능성을 열고 있다. 본 연구는 자율주행 데이터를 활용해 도로 결함을 세분화하고 U-Net과 U-Net++ 모델을 통해 이진 및 다중 클래스 세그멘테이션 성능을 비교한다. 다양한 손실 함수와 데이터 증강 기법을 결합하여 복잡한 결함을 정밀하게 탐지할 수 있는 모델을 설계했으며 Road IoU와 Dice 계수를 사용해 성능을 평가했다. 다중 클래스 세그멘테이션이 결함 탐지의 정확성을 높였으며 이 접근은 자율주행 데이터의 확장된 응용 가능성을 제시한다.
+\end{abstract}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{introduction}
+\input{related}
+\input{method}
+\input{result}
+\input{conclusion}
+
+\bibliographystyle{IEEEtran}
+\bibliography{reference}
+
+\end{document}
+
